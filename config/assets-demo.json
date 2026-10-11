@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "data_kind": "synthetic",
+  "assets": [
+    {"hostname": "lab-server", "criticality": "HIGH", "owner": "lab-platform"},
+    {"hostname": "lab-workstation", "criticality": "LOW", "owner": "lab-user"}
+  ]
+}

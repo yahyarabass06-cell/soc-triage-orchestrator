@@ -28,3 +28,6 @@ line-length = 88
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+[project.scripts]
+soc-triage = "soc_triage.cli:main"
