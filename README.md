@@ -132,7 +132,9 @@ python -m pytest -q
 The latest observed local suite passed 37 tests.
 An installed-CLI demonstration verified repeated imports and audited transition.
 
-Clean-clone installation and remote CI remain pending verification.
+A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 37 tests. Installed-CLI imports reproduced idempotent decisions and an audited investigation transition.
+
+Remote CI remains pending verification.
 
 ## Security Considerations
 
