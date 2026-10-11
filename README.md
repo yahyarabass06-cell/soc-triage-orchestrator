@@ -134,7 +134,9 @@ An installed-CLI demonstration verified repeated imports and audited transition.
 
 A clean Git clone and non-editable installation in a fresh Python 3.14 environment passed all 37 tests. Installed-CLI imports reproduced idempotent decisions and an audited investigation transition.
 
-Remote CI remains pending verification.
+GitHub Actions passed on Python 3.12 and 3.14 for commit `8705fc7`.
+
+Verified run: [CI results](https://github.com/yahyarabass06-cell/soc-triage-orchestrator/actions/runs/38175685210).
 
 ## Security Considerations
 
